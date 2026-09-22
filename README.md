@@ -39,9 +39,10 @@ Configuration de sous-interfaces sur le routeur avec `802.1Q` afin de permettre 
 avec les commandes
 interfaces fastethernet0/0/0.10 (sous interfaces appartenant au vlan 10 )
 encapsulation dot1q 10 (pour la provenance du packet)
-ip address 192.168.10.254 255.255.255.0 (passserelle par defaut et le masque de sous reseau)
-
+ip address 192.168.10.254 255.255.255.0 (passserelle par defaut et le masque de sous reseau).
 j'ai fais les configuration adapter pour tous mes sous reseau pour que la communication sois possibble entre les vlan 
+
+<img width="503" height="710" alt="ping" src="https://github.com/user-attachments/assets/f31a2282-ff98-430e-b7f6-f641037fda4c" />
 
 ### 5. Sécurisation des VLAN
 
@@ -68,8 +69,7 @@ Mise en place de plusieurs mesures de sécurité :
  avec la commande "switchport mode access"
 
 -desactiver le DTP (dinamic trunking protocole) de tous les port connecté au poste utilisateur 
-avec la commande "switchport nonegociate<img width="503" height="710" alt="ping" src="https://github.com/user-attachments/assets/f31a2282-ff98-430e-b7f6-f641037fda4c" />
-
+avec la commande "switchport nonegociate
 
 ## Vérifications
 
